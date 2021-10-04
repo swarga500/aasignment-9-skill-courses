@@ -8,6 +8,8 @@ const Navbar = () => {
   <div className="container-fluid">
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
+        
+        {/* route Link  */}
         <Link className="text-white fw-bold nav-link active" aria-current="page" to="/Home">Home</Link>
         <Link className="text-white fw-bold nav-link" to="/services">Services</Link>
         <Link className="text-white fw-bold nav-link" to="/contact">Contact</Link>

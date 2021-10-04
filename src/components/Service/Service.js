@@ -11,6 +11,7 @@ const Service = (props) => {
                 <p className="card-title fw-bold"><span className="fw-bold fs-5 text-primary">Course :</span> {name}</p>
                 
                  <p className="fw-bold"><span className="fw-bold fs-5 text-primary">Price :</span> ${Price}</p>
+                 <button className="btn btn-primary">Buy Now</button>
              </div>
            </div>
         </div>
